@@ -76,7 +76,7 @@ prompt = PromptTemplate(
     template=prompt_template
 )
 
-google_api_key = "AIzaSyBpNv41i7COJypYYSDOXa7xm71Vgc-z8RQ"  # Replace with your actual key
+google_api_key = "Replace_with_your_actual_key"  # Replace with your actual key
 llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=google_api_key)
 
 chain = prompt | llm | StrOutputParser()
