@@ -97,5 +97,10 @@ end_index = result.find('}')
 cleaned_result = result[start_index:end_index+1]
 
 parsed_resume = json.loads(cleaned_result)
-print(json.dumps(parsed_resume, indent=2))
+final_json=json.dumps(parsed_resume, indent=4)
+
+file_name ='output.json'
+
+with open(file_name, 'w') as file:
+    file.write(final_json)
 
