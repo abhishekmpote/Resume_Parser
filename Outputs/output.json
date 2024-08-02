@@ -4,26 +4,26 @@
         "phone": "+91 7822927505",
         "email": "abhishekpote25@gmail.com",
         "linkedin": "",
-        "location": "Pune, Maharashtra, India"
+        "location": "Pune,Mah arashtra ,India"
     },
     "education": [
         {
-            "degree": "BTech Artificial Intelligence and Data Science",        
-            "institution": "Vishwakarma Institute Of Technology, Pune",        
-            "grade": "8.69 CGPA",
-            "date": "June 2024"
+            "degree": "BTech Artificial Intelligence and Data Science",
+            "institution": "Vishwakarma Institute Of Technology, Pune",
+            "grade": "8.69",
+            "date": "June. 2024"
         },
         {
             "degree": "Higher Secondary School Certificate (HSC)",
             "institution": "Abasaheb Garware College, Pune",
-            "grade": "80.33 %",
-            "date": "Feb 2021"
+            "grade": "80.33",
+            "date": "Feb\u2019 2021"
         },
         {
             "degree": "Secondary School Certificate (SSC)",
             "institution": "Sadhvi Preetisudhaji International School, Rahata",
-            "grade": "86.20 %",
-            "date": "Feb 2019"
+            "grade": "86.20",
+            "date": "Feb\u2019 2019"
         }
     ],
     "experience": [
@@ -31,19 +31,30 @@
             "title": "AI-ML Senior Technical Member",
             "organization": "Team QUARK, VIT Pune",
             "description": [
-                "Contributing to open-source projects in the domain of Machine learning.",
+                "Contributing to open -source projects in the domain of Machine learning.",
                 "Took a workshop on Deep Learning"
             ]
         }
     ],
     "technical_skills": {
-        "programming": ["Python", "C", "C++", "SQL"],
-        "soft_skills": ["Teamwork", "Time Management", "Leadership", "Communication"]
+        "programming": [
+            "Python",
+            "C",
+            "C++",
+            "SQL",
+            "Object Oriented Programming"
+        ],
+        "soft_skills": [
+            "Teamwork",
+            "Time Management",
+            "Leadership",
+            "Communication"
+        ]
     },
     "projects": [
         {
             "name": "Digital Shopping Cart",
-            "technologies": ["Python (Machine Learning)", "OpenCV", "TensorFlow", "Microprocessor", "Cameras", "Load cell"],
+            "technologies": "Python (Machine Learning)",
             "description": [
                 "A shopping cart that automatically recognizes the products and adds them to your bill, using image recognition.",
                 "It uses various technologies like Image Processing by using OpenCV and TensorFlow library in Python and integrating them with microprocessor, cameras, and load cell to create the digital shopping cart."
@@ -51,7 +62,7 @@
         },
         {
             "name": "Fund Trail Analysis Tool",
-            "technologies": ["Python (Machine Learning)"],
+            "technologies": "Python (Machine Learning)",
             "description": [
                 "A fund trail analysis tool which was able to track down accounts involved in a scam by a recursive algorithm, and it was able to convert bank statements from any format to one single format.",
                 "The project was done for the Rajasthan Police."
@@ -59,22 +70,22 @@
         },
         {
             "name": "Spell Checker",
-            "technologies": ["C Programming"],
+            "technologies": "C Programming",
             "description": [
                 "Implemented using C programming and data structures, primarily a hash map, for spell checking and correction, reads a word dictionary from text file then stores it in a hash map and suggests corrections for misspelled words."
             ]
         },
         {
             "name": "RAG -Based Chatbot for Monument Information Retrieval Using Efficient Net B7 and Llama -2-7B",
-            "technologies": ["Python (Deep Learning)", "Efficient Net B7", "Llama -2-7B"],
+            "technologies": "Python ( Deep Learning)",
             "description": [
                 "The application will firstly classify the uploaded image of a monument, using an Efficient Net B7 CNN for classification.",
-                "Then the user can engage in a conversational question-answering session with a RAG-based chatbot powered by the Llama -2-7B language model."
+                "Then the user can engage in a conversational question -answering session with a RAG -based chatbot powered by the Llama -2-7B language model."
             ]
         },
         {
             "name": "Grocery Management System",
-            "technologies": ["Python", "DBMS"],
+            "technologies": "Python, DBMS",
             "description": [
                 "Developed GUI application which helps vendors to maintain all records of sales and items.",
                 "By using python programming with MySQL connectivity this grocery management system has been developed."
@@ -91,7 +102,7 @@
     "extra_curricular": [
         {
             "activity": "Atmabodh Volunteer",
-            "description": "Volunteered in Atmabodh, a digital literacy program for women and senior citizens. Included teaching for 10 days and publicizing the event."        
+            "description": "VIT Social Welfare and Development October 22 \u2022 Volunteered in Atmabodh, a digital literacy program for women and senior citizens . This included teaching for 10 days, and publicizing the event."
         },
         {
             "activity": "Social Summer Of Code (SSOC) 2023",
@@ -102,14 +113,23 @@
         {
             "title": "Hospital Management System",
             "journal": "International Research Journal of Mechanical Engineering",
-            "date": "Vol. 7 No. 7 July 2022"
+            "date": "July, 2022",
+            "volume": 7,
+            "issue": 7
         },
         {
             "title": "Digital Shopping cart and automatic billing system",
-            "journal": "Scopus indexed Book"
+            "journal": "Scopus indexed Book",
+            "date": "",
+            "volume": "",
+            "issue": ""
         },
         {
-            "title": "Enhancing Healthcare Delivery in India: Emergency Medical Care and Patient History Management"
+            "title": "Enhancing Healthcare Delivery in India: Emergency Medical Care and Patient History Management",
+            "journal": "",
+            "date": "",
+            "volume": "",
+            "issue": ""
         }
     ]
 }

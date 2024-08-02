@@ -1,14 +1,10 @@
 from langchain_core.prompts import PromptTemplate
-from langchain_community.llms import OpenAI
-from langchain.chains import LLMChain
-from langchain_openai import OpenAI
 import json
-import os
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import PromptTemplate
-from langchain_openai import OpenAI
 import PyPDF2
-
+from langchain_google_genai import ChatGoogleGenerativeAI
+import re
 
 def read_pdf(file_path):
     with open(file_path, 'rb') as file:
@@ -69,8 +65,8 @@ Please parse the above resume and create a JSON object with the following struct
     "publications": []
 }}
 
-Ensure that all relevant information from the resume is captured in the appropriate fields. If a field is not applicable or information is not available, leave it as an empty string or empty list as appropriate.
-give an exact json format
+Ensure that all relevant information from the resume is captured in the appropriate fields. If a field is not applicable or information is not available, leave it as an empty string or empty list as appropriate and give the output in exact JSON format.
+  
 Output the parsed JSON object:
 """
 
@@ -80,7 +76,8 @@ prompt = PromptTemplate(
     template=prompt_template
 )
 
-llm = OpenAI(temperature=0, openai_api_key="your_api_key_here")
+google_api_key = "AIzaSyBpNv41i7COJypYYSDOXa7xm71Vgc-z8RQ"  # Replace with your actual key
+llm = ChatGoogleGenerativeAI(model="gemini-pro", google_api_key=google_api_key)
 
 chain = prompt | llm | StrOutputParser()
 
@@ -100,4 +97,3 @@ file_name ='output.json'
 
 with open(file_name, 'w') as file:
     file.write(final_json)
-
